@@ -9,7 +9,9 @@
   "scripts": {
     "build": "tsc -p .",
     "lint": "tslint -p .",
-    "test": "jest --ci"
+    "test": "jest --ci",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "@babel/core": "7.10.4",
@@ -32,11 +34,12 @@
     "@types/uuid": "^8.0.0",
     "@types/yargs": "^15.0.0",
     "bull": "^3.6.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "prom-client": "^12.0.0",
     "tslib": "^2.0.0",
     "uuid": "^8.0.0",
-    "yargs": "^15.1.0"
+    "yargs": "^15.1.0",
+    "@snyk/protect": "latest"
   },
   "resolutions": {
     "acorn": ">=7.1.1",
@@ -45,5 +48,6 @@
     "minimist": ">=1.2.5",
     "@types/node": "10.17.27",
     "typescript": "3.9.6"
-  }
+  },
+  "snyk": true
 }
