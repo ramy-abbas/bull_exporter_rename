@@ -31,7 +31,7 @@
     "@types/bull": "^3.5.4",
     "@types/uuid": "^8.0.0",
     "@types/yargs": "^15.0.0",
-    "bull": "^3.6.0",
+    "bull": "^3.29.3",
     "express": "^4.17.1",
     "prom-client": "^12.0.0",
     "tslib": "^2.0.0",
