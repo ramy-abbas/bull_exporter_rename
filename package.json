@@ -6,6 +6,7 @@
   "repository": "git@github.com:UpHabit/bull_exporter.git",
   "author": "Gabriel Castro <GabrielCastro@users.noreply.github.com>",
   "license": "MIT",
+  
   "scripts": {
     "build": "tsc -p .",
     "lint": "tslint -p .",
